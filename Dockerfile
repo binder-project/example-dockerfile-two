@@ -6,7 +6,7 @@ USER root
 
 # Add dependency
 RUN apt-get update
-RUN apt-get install graphviz
+RUN apt-get install -y graphviz
 
 USER main
 
