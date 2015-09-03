@@ -5,6 +5,7 @@ MAINTAINER Jeremy Freeman <freeman.jeremy@gmail.com>
 USER root
 
 # Add dependency
+RUN apt-get update
 RUN apt-get graphviz
 
 USER main
