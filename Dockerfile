@@ -9,6 +9,9 @@ RUN apt-get graphviz
 
 USER main
 
-# Install requirements
+# Install requirements for Python 2
 ADD requirements.txt requirements.txt
 RUN pip install -r requirements.txt
+
+# And install for Python 3
+RUN /home/main/anaconda/envs/python3/bin/pip install -r requirements.txt
