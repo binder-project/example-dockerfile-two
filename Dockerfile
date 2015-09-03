@@ -11,7 +11,7 @@ RUN apt-get graphviz
 USER main
 
 # Install requirements for Python 2
-ADD requirements.txt requirements.txt
+ADD repo/requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 # And install for Python 3
