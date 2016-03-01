@@ -2,7 +2,7 @@
 
 [![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/binder-project/example-dockerfile-two)
 
-A Binder-compatibible repository that contains its own Dockerfile.
+A Binder-compatible repository that contains its own Dockerfile.
 
 Also see the [other](https://github.com/binder-project/example-dockerfile) Dockerfile example.
 
